@@ -9,11 +9,14 @@ gem 'rails', '4.0.3'
 # Use sqlite3 as the database for development and test
 gem 'sqlite3', group: [:development, :test]
 
-#Use postgres as database in production
+# Use postgres as database in production
 gem 'pg', group: :production
 
-#Add 12 factor for Heroku
+# Add 12 factor for Heroku
 gem 'rails_12factor', group: :production
+
+# Use bootstrap 
+gem 'bootstrap-sass'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
