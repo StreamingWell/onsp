@@ -21,6 +21,10 @@ gem 'bootstrap-sass'
 # Add Stripe
 gem 'stripe', :git => 'https://github.com/stripe/stripe-ruby'
 
+# Add Figaro for securely anaging creds
+gem 'figaro'
+
+
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
 
